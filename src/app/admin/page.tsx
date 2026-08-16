@@ -66,47 +66,45 @@ export default function AdminPage() {
 
   const fetchMembers = async () => {
     setIsLoading(true);
+    let allMembers: Member[] = [];
     try {
       const response = await fetch("/api/members");
-      const data = await response.json();
-      
-      let allMembers = data.members || [];
-
-      // Combine with local mock/localStorage members if any are missing on server (local workspace redundancy)
-      try {
-        const localMembers = localStorage.getItem("asp_registered_members");
-        if (localMembers) {
-          const parsed = JSON.parse(localMembers);
-          if (Array.isArray(parsed)) {
-            // Merge lists based on ID to avoid duplicates
-            const merged = [...allMembers];
-            parsed.forEach((pm: any) => {
-              if (!merged.some((m) => m.id === pm.id)) {
-                merged.push({
-                  ...pm,
-                  whatsapp: pm.whatsapp || "",
-                  age: pm.age || "",
-                  gender: pm.gender || "",
-                  address: pm.address || "",
-                  education: pm.education || "",
-                  occupation: pm.occupation || "",
-                  joinedDate: pm.joinedDate || new Date().toISOString(),
-                });
-              }
-            });
-            allMembers = merged;
-          }
-        }
-      } catch (e) {
-        console.error(e);
+      if (response.ok) {
+        const data = await response.json();
+        allMembers = data.members || [];
       }
-
-      setMembers(allMembers);
     } catch (err) {
-      console.error("Error loading members list:", err);
-    } finally {
-      setIsLoading(false);
+      console.warn("API route not available (Static site deployment). Using browser storage.");
     }
+
+    // Load and append members from localStorage
+    try {
+      const localMembers = localStorage.getItem("asp_registered_members");
+      if (localMembers) {
+        const parsed = JSON.parse(localMembers);
+        if (Array.isArray(parsed)) {
+          parsed.forEach((pm: any) => {
+            if (!allMembers.some((m) => m.id === pm.id)) {
+              allMembers.push({
+                ...pm,
+                whatsapp: pm.whatsapp || "",
+                age: pm.age || "",
+                gender: pm.gender || "",
+                address: pm.address || "",
+                education: pm.education || "",
+                occupation: pm.occupation || "",
+                joinedDate: pm.joinedDate || new Date().toISOString(),
+              });
+            }
+          });
+        }
+      }
+    } catch (e) {
+      console.error("Error reading localStorage:", e);
+    }
+
+    setMembers(allMembers);
+    setIsLoading(false);
   };
 
   // Filtered members list
