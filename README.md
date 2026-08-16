@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Azad Samaj Party (Kanshi Ram) - Ambedkar Nagar District Website
 
-## Getting Started
+A premium, bilingual (Hindi & English), responsive website built using the latest Next.js 15 (App Router), TypeScript, and Tailwind CSS. It is designed specifically for the Azad Samaj Party (Kanshi Ram) organization in the Ambedkar Nagar district, Uttar Pradesh.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🌐 **Bilingual Support**: Toggle between English and Hindi (Devnagari script) instantly.
+- 👥 **Online Membership Form**: Locals can register by filling in a validation-enabled form, selecting their assembly constituency (Akbarpur, Tanda, Jalalpur, Katehari, Alapur), and entering address/occupation details.
+- 🪪 **Printable Membership Slip**: On successful registration, users receive a beautiful, print-ready membership card featuring automated membership numbers and G.Sec authorized signature stamps.
+- 🏛️ **Executive Committee Roster**: Displays local committee members and assembly coordinators in an easily editable card layout configuration.
+- 📊 **Security-Protected Admin Panel**: A dashboard under `/admin` accessible with password `Admin@ASP2026` to manage members, filter registrations by Vidhansabha, and view complete details.
+- 📥 **BOM UTF-8 CSV Export**: Admins can export registrations to Excel-compatible CSVs with full support for Hindi characters.
+- 🗺️ **Active District Mapping**: Active location integration targeting Akbarpur, Ambedkar Nagar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Direct Link Deployment (Get Your Live Website Link)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Because this website uses dynamic API endpoints (such as registering members), it requires a server runtime. The easiest way to host this website for **FREE** and get a direct live link is through **Vercel** (the official Next.js deployment platform):
 
-## Learn More
+### 1-Click Deploy Instructions:
 
-To learn more about Next.js, take a look at the following resources:
+1. Push this project to your GitHub repository.
+2. Click the button below to import and deploy it to Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/your-repo-name)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*(Make sure to replace `your-username/your-repo-name` with your actual GitHub username and repository name inside this README.md file).*
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Local Development Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To run the website on your local machine:
+
+1. Clone or download the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your web browser.
