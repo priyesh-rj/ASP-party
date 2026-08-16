@@ -1,0 +1,2 @@
+:HL["/ASP-party/_next/static/chunks/050xm8tqc2foo.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"gRIeoJB_P2sSKVd8QRrX4"}
