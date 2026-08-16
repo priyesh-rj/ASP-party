@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1",
+    "nameEn": "Dharmendra Pratap Singh",
+    "nameHi": "धर्मेन्द्र प्रताप सिंह",
+    "roleEn": "District President",
+    "roleHi": "जिला अध्यक्ष",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000001"
+  },
+  {
+    "id": "2",
+    "nameEn": "Joshi Ji",
+    "nameHi": "जोशी जी",
+    "roleEn": "District General Secretary",
+    "roleHi": "जिला महासचिव",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000002"
+  },
+  {
+    "id": "3",
+    "nameEn": "Ram Lakhan Gautam",
+    "nameHi": "राम लखन गौतम",
+    "roleEn": "District Vice President",
+    "roleHi": "जिला उपाध्यक्ष",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000003"
+  },
+  {
+    "id": "4",
+    "nameEn": "Suresh Kumar Baudh",
+    "nameHi": "सुरेश कुमार बौद्ध",
+    "roleEn": "District Secretary",
+    "roleHi": "जिला मंत्री",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000004"
+  },
+  {
+    "id": "5",
+    "nameEn": "Ramesh Chandra Kanojia",
+    "nameHi": "रमेश चन्द्र कनौजिया",
+    "roleEn": "District Treasurer",
+    "roleHi": "जिला कोषाध्यक्ष",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000005"
+  },
+  {
+    "id": "6",
+    "nameEn": "Vipin Kumar Ambedkar",
+    "nameHi": "विपिन कुमार अम्बेडकर",
+    "roleEn": "District Organizing Secretary",
+    "roleHi": "जिला संगठन मंत्री",
+    "areaEn": "District Executive Committee",
+    "areaHi": "जिला कार्यकारिणी",
+    "image": "",
+    "phone": "+91 9452000006"
+  },
+  {
+    "id": "7",
+    "nameEn": "Anil Kumar Paswan",
+    "nameHi": "अनिल कुमार पासवान",
+    "roleEn": "Assembly President - Akbarpur",
+    "roleHi": "विधानसभा अध्यक्ष - अकबरपुर",
+    "areaEn": "Akbarpur Constituency",
+    "areaHi": "अकबरपुर विधानसभा क्षेत्र",
+    "image": "",
+    "phone": "+91 9452000007"
+  },
+  {
+    "id": "8",
+    "nameEn": "Shyam Lal Nishad",
+    "nameHi": "श्याम लाल निषाद",
+    "roleEn": "Assembly President - Tanda",
+    "roleHi": "विधानसभा अध्यक्ष - टांडा",
+    "areaEn": "Tanda Constituency",
+    "areaHi": "टांडा विधानसभा क्षेत्र",
+    "image": "",
+    "phone": "+91 9452000008"
+  },
+  {
+    "id": "9",
+    "nameEn": "Rajesh Kumar Rajbhar",
+    "nameHi": "राजेश कुमार राजभर",
+    "roleEn": "Assembly President - Jalalpur",
+    "roleHi": "विधानसभा अध्यक्ष - जलालपुर",
+    "areaEn": "Jalalpur Constituency",
+    "areaHi": "जलालपुर विधानसभा क्षेत्र",
+    "image": "",
+    "phone": "+91 9452000009"
+  },
+  {
+    "id": "10",
+    "nameEn": "Manohar Lal Verma",
+    "nameHi": "मनोहर लाल वर्मा",
+    "roleEn": "Assembly President - Katehari",
+    "roleHi": "विधानसभा अध्यक्ष - कटेहरी",
+    "areaEn": "Katehari Constituency",
+    "areaHi": "कटेहरी विधानसभा क्षेत्र",
+    "image": "",
+    "phone": "+91 9452000010"
+  },
+  {
+    "id": "11",
+    "nameEn": "Manoj Kumar Harijan",
+    "nameHi": "मनोज कुमार हरिजन",
+    "roleEn": "Assembly President - Alapur",
+    "roleHi": "विधानसभा अध्यक्ष - आलापुर (सुरक्षित)",
+    "areaEn": "Alapur Constituency",
+    "areaHi": "आलापुर विधानसभा क्षेत्र",
+    "image": "",
+    "phone": "+91 9452000011"
+  }
+]
